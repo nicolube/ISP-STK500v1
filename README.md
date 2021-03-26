@@ -1,7 +1,7 @@
-# ISP an Hand einer STK100v1
+# ISP an Hand einer STK500v1
 Diese ISP ist im grunde einer [STK500v1](http://ww1.microchip.com/downloads/en/Appnotes/doc2525.pdf) auch bekannt als [Arduino as ISP](https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoISP) mit der erweiteren Schnitstelle für das [ATMega32 Board](/ATMega32%20Board/ATMega32%20Board.pdf) der IHK.
 ## Inhaltsverzeichnis
-- [ISP an Hand einer STK100v1](#isp-an-hand-einer-stk100v1)
+- [ISP an Hand einer STK500v1](#isp-an-hand-einer-stk500v1)
   - [Inhaltsverzeichnis](#inhaltsverzeichnis)
 - [Bedienung](#bedienung)
   - [Arduino IDE](#arduino-ide)
