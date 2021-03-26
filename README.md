@@ -4,6 +4,9 @@ Diese ISP ist im grunde einer [STK500v1](http://ww1.microchip.com/downloads/en/A
 - [ISP an Hand einer STK500v1](#isp-an-hand-einer-stk500v1)
   - [Inhaltsverzeichnis](#inhaltsverzeichnis)
 - [Bedienung](#bedienung)
+  - [Jumper](#jumper)
+    - [JP1 Programier Modus](#jp1-programier-modus)
+    - [JP2 Spannung über ISP](#jp2-spannung-über-isp)
   - [Arduino IDE](#arduino-ide)
   - [PlatformIO](#platformio)
   - [Schnittstellen Beschreibung](#schnittstellen-beschreibung)
@@ -18,6 +21,15 @@ Diese ISP ist im grunde einer [STK500v1](http://ww1.microchip.com/downloads/en/A
 Das Board ist wie am Anfang genant eine STK500v1 und verhält sich auch so. Es registriert sich auf der Seite des PC als COM-Port (Serielle Schnittstelle). 
 
 Bevor Sie jedoch ihr zu Programirendes Board anschießen muss geprüft werden ob das zu programmirende Board eine eigene Spannungsversorgung hat und ob diese auf die AVR ISP Schnittstelle geführt wird. Sollte dies der Fall sein so entfernen Sie bitte JP2.
+
+## Jumper
+
+### JP1 Programier Modus 
+JP1 muss im normalfall immer auf der Stellung (2,3) sein.
+In der Stellung (1,2) ist die ISP im Selbstprogramiermodus und kann durch eine andere ISP geflasht werden. 
+
+### JP2 Spannung über ISP
+Wenn die zu programmirende Board eine Stomaufname unter 100mA besitzt kann JP2 dazu genutzt werden die Board mit Spannung zu versorgen. **Dies darf nur im Spannungfreien zustand des Bords genutzt werden**
 
 ## Arduino IDE
 
@@ -49,7 +61,12 @@ Die Leiterplatte hat verschiedene Zusatzkomponenten die für die Funktion nicht 
 # Programmieren der ISP
 
 Zum Programiren der ISP muss JP1 (1,2) und JP2 gesetzt werden.
-Nun kann mittels einer speraten ISP die Firmwahre geflasht [Firmware](/ISP/Firmware/) werden.
+Nun kann mittels einer anderen ISP die [Firmware](/ISP/Firmware/) geflasht werden.
+Zudem muss SV1 oder SV2 auf ein Programiergerät gebückt werden, dies kann z.b. eine USBASP oder eine andere ISP sein.
+
+**Prüfen Sie die Stellung der Jumper!**
+
+
 ## Flashen der Firmware
 1. Begeben Sie sich in den Verzeichnis des Projektes.
 2. Prüfen Sie in der [platform.ini](/ISP/Firmware/platformio.ini) ob Sie den richtigen COM-Port gewählt haben.
