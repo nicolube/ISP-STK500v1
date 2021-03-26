@@ -49,7 +49,7 @@ Die Leiterplatte hat verschiedene Zusatzkomponenten die für die Funktion nicht 
 # Programmieren der ISP
 
 Zum Programiren der ISP muss JP1 (1,2) und JP2 gesetzt werden.
-Nun kann mittels einer speraten ISP die Firmwahre geflasht [Firmware](/ISP/Firmware/).
+Nun kann mittels einer speraten ISP die Firmwahre geflasht [Firmware](/ISP/Firmware/) werden.
 ## Flashen der Firmware
 1. Begeben Sie sich in den Verzeichnis des Projektes.
 2. Prüfen Sie in der [platform.ini](/ISP/Firmware/platformio.ini) ob Sie den richtigen COM-Port gewählt haben.
