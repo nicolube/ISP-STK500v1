@@ -29,7 +29,7 @@ Für genauere Informationen Klicken Sie [hier](https://www.arduino.cc/en/Tutoria
 ## PlatformIO
 
 Bitte nutzen Sie für PlatformIO Projekt unser [Beispiel Projekt](/ISP/Beispiel).
-Hier bei ist zu Beachten das in der [platform.ini](/ISP/Beispiel/platformio.ini) der *upload_port* gengepasst werden muss.
+Hier bei ist zu Beachten das in der [platform.ini](/ISP/Beispiel/platformio.ini) der *upload_port* angepasst werden muss.
 
 
 ## Schnittstellen Beschreibung
