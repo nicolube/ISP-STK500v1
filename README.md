@@ -9,7 +9,7 @@ Diese ISP ist im grunde einer [STK500v1](http://ww1.microchip.com/downloads/en/A
   - [Schnittstellen Beschreibung](#schnittstellen-beschreibung)
 - [Bauteile die vernachlässicht werden können](#bauteile-die-vernachlässicht-werden-können)
 - [Programmieren der ISP](#programmieren-der-isp)
-  - [Flashen der Firmwahre](#flashen-der-firmwahre)
+  - [Flashen der Firmware](#flashen-der-firmware)
 - [Bestückungsplan](#bestückungsplan)
 - [Schaltplan](#schaltplan)
 
@@ -49,8 +49,8 @@ Die Leiterplatte hat verschiedene Zusatzkomponenten die für die Funktion nicht 
 # Programmieren der ISP
 
 Zum Programiren der ISP muss JP1 (1,2) und JP2 gesetzt werden.
-Nun kann mittels einer 2. ISP die Firmwahre geflasht [Firmware](/ISP/Firmware/).
-## Flashen der Firmwahre
+Nun kann mittels einer speraten ISP die Firmwahre geflasht [Firmware](/ISP/Firmware/).
+## Flashen der Firmware
 1. Begeben Sie sich in den Verzeichnis des Projektes.
 2. Prüfen Sie in der [platform.ini](/ISP/Firmware/platformio.ini) ob Sie den richtigen COM-Port gewählt haben.
 3. Öffenen Sie nun ein Terminal / CMD die [PlatformIO CLI](https://platformio.org/install/cli) installiert hat.
