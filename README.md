@@ -29,7 +29,7 @@ Für genauere Informationen Klicken Sie [hier](https://www.arduino.cc/en/Tutoria
 ## PlatformIO
 
 Bitte nutzen Sie für PlatformIO Projekt unser [Beispiel Projekt](/ISP/Beispiel).
-Hier bei ist zu Beachten das in der [platform.ini](/ISP/Beispiel/platformio.ini) der *upload_port* angepasst werden muss.
+Hier bei ist zu Beachten das in der [platform.ini](/ISP/Beispiel/platformio.ini) der *upload_port* gengepasst werden muss.
 
 
 ## Schnittstellen Beschreibung
@@ -49,13 +49,13 @@ Die Leiterplatte hat verschiedene Zusatzkomponenten die für die Funktion nicht 
 # Programmieren der ISP
 
 Zum Programiren der ISP muss JP1 (1,2) und JP2 gesetzt werden.
-Nun kann mittels einer 2. ISP die Firmwahre zu flaschen [Firmware](/ISP/Firmware/).
+Nun kann mittels einer 2. ISP die Firmwahre geflasht [Firmware](/ISP/Firmware/).
 ## Flashen der Firmwahre
 1. Begeben Sie sich in den Verzeichnis des Projektes.
 2. Prüfen Sie in der [platform.ini](/ISP/Firmware/platformio.ini) ob Sie den richtigen COM-Port gewählt haben.
 3. Öffenen Sie nun ein Terminal / CMD die [PlatformIO CLI](https://platformio.org/install/cli) installiert hat.
 4. Setzen Sie die Fuses des Mikrocontrollers mit ```pio run --target fuses```.
-5. Laden Sie nen die Firmwahre mit ```pio run --target fuses``` hoch.
+5. Laden Sie nun die Firmware mit ```pio run --target fuses``` hoch.
 
 >  Bitte beachten Sie das der Jumper JP1 zur normalen nutzung wieder auf JP1 (2,3) gesetzt werden muss.
 
