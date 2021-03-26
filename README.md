@@ -55,7 +55,7 @@ Nun kann mittels einer 2. ISP die Firmwahre geflasht [Firmware](/ISP/Firmware/).
 2. Prüfen Sie in der [platform.ini](/ISP/Firmware/platformio.ini) ob Sie den richtigen COM-Port gewählt haben.
 3. Öffenen Sie nun ein Terminal / CMD die [PlatformIO CLI](https://platformio.org/install/cli) installiert hat.
 4. Setzen Sie die Fuses des Mikrocontrollers mit ```pio run --target fuses```.
-5. Laden Sie nun die Firmware mit ```pio run --target fuses``` hoch.
+5. Laden Sie nun die Firmware mit ```pio run --target upload``` hoch.
 
 >  Bitte beachten Sie das der Jumper JP1 zur normalen nutzung wieder auf JP1 (2,3) gesetzt werden muss.
 
