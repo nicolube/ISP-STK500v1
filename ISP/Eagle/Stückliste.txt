@@ -1,0 +1,38 @@
+Partlist
+
+Exported from ISP.brd at 26.03.21 08:14
+
+EAGLE Version 9.5.1 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                          Package          Library               Position (mil)        Orientation
+
+C1       22pF                           C0805            resistor              (1150 300)            R90
+C2       22pF                           C0805            resistor              (750 300)             R90
+C3       100nF                          C0805            resistor              (1475 850)            R0
+C4       100nF                          C0805            resistor              (1250 1000)           R90
+C5       47uF                           PANASONIC_D      resistor              (1625 1250)           R270
+C6       10uF                           PANASONIC_C      resistor              (1325 1425)           R270
+C7       100nF                          C0805            resistor              (1575 275)            R180
+C8       47pF                           C0805            resistor              (1950 225)            R270
+C9       47pF                           C0805            resistor              (1800 225)            R270
+IC1      FT232RL                        SSOP28           ftdichip              (1500 550)            R270
+IC2      ATMEGA328P-AU                  QFP32_7X7_0.80   atmel                 (950 950)             R180
+JP1                                     SJ_2             jumper                (1450 1150)           R90
+JP2                                     JP1              jumper                (900 1675)            R90
+L1       330uH                          L1812            resistor              (1525 1550)           R270
+LED1                                    CHIPLED_1206     led                   (1800 950)            R180
+LED2                                    CHIPLED_1206     led                   (1950 950)            R180
+Q1       16MHz                          HC49UP           crystal               (950 550)             R0
+R1       10k                            R0805            resistor              (1400 975)            R0
+R2       560                            R0805            resistor              (1125 1225)           R90
+R3       150                            R0805            resistor              (1800 750)            R270
+R4       150                            R0805            resistor              (1950 750)            R270
+R5       10k                            R0805            resistor              (1400 275)            R0
+SV1                                     ML6              con-harting-ml        (1850 1925)           R0
+SV2                                     ML10             con-ml                (1075 1925)           R0
+T1       BC847                          SOT23            transistor            (1000 1325)           R90
+U1       IP4220CZ6                      SOT95P275X110-6N IP4220CZ6             (1700 1525)           R180
+X1                                      M25HP            con-subd              (475 1075)            R270
+X2       MINI-USB_SHIELD4P-85-32004-00X 85-32004-00X     con-cypressindustries (2050 1400)           R180

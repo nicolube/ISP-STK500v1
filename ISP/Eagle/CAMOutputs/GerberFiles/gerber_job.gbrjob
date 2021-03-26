@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2021-03-26T01:35:41Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "ISP"
+        },
+        "Owner": "Nico Mueller <f@nicolube.de>",
+        "Size": {
+            "X": 57.13,
+            "Y": 55.55
+        }
+    }
+}
