@@ -1,11 +1,11 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2021-03-26T01:35:41Z",
+        "CreationDate": "2021-03-29T07:02:19Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
-            "Version": "9.5.1"
+            "Version": "9.6.2"
         },
         "Part": "Single"
     },
@@ -17,7 +17,7 @@
         },
         "Owner": "Nico Mueller <f@nicolube.de>",
         "Size": {
-            "X": 57.13,
+            "X": 56.495,
             "Y": 55.55
         }
     }
